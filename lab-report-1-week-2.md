@@ -1,1 +1,1 @@
-![Image](http://url/image.png)
+![Image](https://github.com/HenryXII/cse15l-lab-reports/blob/main/image.png)
