@@ -45,4 +45,7 @@ scp Users/xujiahui/.ssh/id_rsa.pub cs15lwi22aqz@ieng6.ucsd.edu:~/.ssh/authorized
 ![Image](5b.png)
 ## Optimizing Remote Running
 Finally, I used a few trick to make the process even easier.I can use arrow key to recall previous command instead of typing them, I can also put command I want to run on the server after the ssh command to automatically log out after it's done.
+```
+ssh cs15lwi22aqz@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"
+```
 ![Image](6.png)
