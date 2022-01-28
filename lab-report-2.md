@@ -12,5 +12,11 @@ The linke to the failure-inducing input.
 [test file 3](https://github.com/HenryXII/markdown-parse/blob/main/test-file3.md)
 The corresponding symptom
 ![Symp 2](symp2.png)
-
+The symptom is that the link of an image also got printed. This happened because there is an image link in the input file and the code had a bug that it couldn't distinguish the difference between an image link or a normal link.
 ### bug fix 3
+![Fix 3](fix3.png)
+The linke to the failure-inducing input.
+[test file 4](https://github.com/HenryXII/markdown-parse/blob/main/test-file4.md)
+The corresponding symptom
+![Symp 3](symp3.png)
+The symptom is that the link at the beginning is not getting printed. The input has a link at the beginning. The bug is created by the fix to previous problem, apparently a link at the beginning got treated like an image.
