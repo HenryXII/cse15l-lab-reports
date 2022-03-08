@@ -6,7 +6,10 @@
 
 ## Snippet1
 Expected output: [`google.com, google.com, ucsd.edu]
+
+
 ![](lab4-1.png)
+
 Test code:
 ```
 @Test
@@ -45,7 +48,10 @@ java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was
 ## Snippet2
 
 Expected output: [a.com, a.com(()), example.com]
+
+
 ![](lab4-2.png)
+
 Test code:
 ```
 @Test
@@ -83,7 +89,10 @@ java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a
 
 ## Snippet3
 Expected output: [https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]
+
+
 ![](lab4-3.png)
+
 Test code:
 ```
 @Test
